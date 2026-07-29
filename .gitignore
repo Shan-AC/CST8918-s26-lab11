@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Local configuration
+.ansible
+.azure/
+.bash_history
+.boto
+.cache
+*.code-workspace
+.config
+.gitconfig
+.local
+.netrc
+.vscode/
+.idea/
+
+# Terraform
+**/.terraform/*
+.terraform/
+.terraformrc
+.terraform.d/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Sentinel
+.sentinel
+
+# SSH
+.ssh
