@@ -12,12 +12,12 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "jian0147-githubactions-rg"
+  name     = "he000145-githubactions-rg"
   location = "westus3"
 }
 
 resource "azurerm_storage_account" "sa" {
-  name                     = "jian0147githubactions"
+  name                     = "he000145githubactions"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"

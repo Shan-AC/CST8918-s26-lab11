@@ -1,0 +1,7 @@
+{
+  "name": "production-deploy",
+  "issuer": "https://token.actions.githubusercontent.com",
+  "subject": "repo:Shan-AC@255023415/CST8918-s26-lab11@1315576449:environment:production",
+  "description": "CST8918 Lab 11 GitHub Actions production deployment",
+  "audiences": ["api://AzureADTokenExchange"]
+}
