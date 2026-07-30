@@ -1,0 +1,7 @@
+{
+  "name": "branch-main",
+  "issuer": "https://token.actions.githubusercontent.com",
+  "subject": "repo:Shan-AC@255023415/CST8918-s26-lab11@1315576449:ref:refs/heads/main",
+  "description": "CST8918 Lab 11 GitHub Actions main branch",
+  "audiences": ["api://AzureADTokenExchange"]
+}

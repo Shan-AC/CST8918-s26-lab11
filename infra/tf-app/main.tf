@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "app_rg" {
-  name     = "jian0147-a11-rg"
+  name     = "he000145-a11-rg"
   location = "westus3"
 }
 
